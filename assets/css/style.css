@@ -7,43 +7,22 @@
     position: relative;
     font-family:cursive;
     font-size: 18px;
-    background-color: #f8cbe4eb;
+    background-color: #721046eb;
     color: #cac8d3;
   }
   
   header {
+    display: flex;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #3c2a7c;
     color: #cac8d3;
   }
   
-  header h1 {
-    display: inline-block;
-    font-size: 48px;
+  #ni {
+    color: #e37edf;
   }
-  
-  header h1 .ni, .mas{
-    color: #d760d3;
-  }
-  
-  header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
-  }
-  
-  header nav ul {
-    list-style-type: none;
-  }
-  
-  header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-  }
-  
+
   h1,
   h2 {
     margin: 20px;
@@ -54,7 +33,7 @@
   }
   
   li {
-    display: inline;
+    display: inline-flex;
     padding: 0px 20px;
     text-decoration: none;
   }
@@ -64,6 +43,11 @@
     color: #cac8d3;
   }
   
+  #myname {
+    font-size: 50px;
+    text-align: center;
+  }
+
   header,
   footer {
     height: 60px;
@@ -101,12 +85,13 @@
   }
   
   form {
-   
     margin: 0 auto;
-    width: 500px;
-    padding: 10px;
+    width: 400px;
+    padding: 5px;
     border: 5px solid #d760d3;
     border-radius: 20px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   
   label {
@@ -116,9 +101,10 @@
     
   input, 
   textarea {
-    box-sizing: border-box;
+    box-sizing:border-box;
     width: 300px;
     border: 1px solid #808080;
+    margin-right: 100px;
   }
   
   textarea {
@@ -127,14 +113,16 @@
   }
     
   button {
+    text-align: center;
     height: 40px;
-    width: 120px;
+    width: 100px;
     background-color: #808080;
     color: #FDF8F5;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
    
   .text-center {
+    font-size: 20px;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
   }
@@ -143,6 +131,10 @@
     text-align:center;
   }
   
+  #name,
+  #email {
+    width: 150px;
+  }
   .project1 {
     display:flex;
     flex-direction: column;
@@ -161,7 +153,9 @@
 
 
   @media screen and (max-width: 768px) {
-    header nav{
-      background: #bf2ea0;
+    a {
+    color:  #42b72a;
     }
   }
+
+  
