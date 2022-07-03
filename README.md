@@ -3,7 +3,7 @@ Monica's Portfolio
 
 My portfolio page contains my name, a recent photo, and links to sections about me, my work, and how to contact me.
 
-<img src="./assets/images/screenshotwebsite.jpg" alt="Monica's Portfolio" />
+<img src="./assets/images/screenshotportfolio.jpg" alt="Monica's Portfolio" />
 
 
 Application deployed at live URL : <a href="https://monicadolce.github.io/Portfolio_challenge_02/"> Visit Live Webpage</a>
