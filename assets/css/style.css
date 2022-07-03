@@ -98,7 +98,6 @@
     padding: 20px 10px 40px 10px;
     border-top: 3px solid #d760d3;
     background-color: #3c2a7c;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   
   form {
@@ -113,7 +112,6 @@
   label {
     display: inline-block;
     width: 100px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
     
   input, 
@@ -138,12 +136,11 @@
    
   .text-center {
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
   }
   
   .text-right {
     text-align:center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   
   .project1 {
@@ -152,18 +149,16 @@
     width: 50%;
     float: left; 
     padding-top: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
   }
 
   .project2 {
     display:flex;
     flex-direction: column;
     width: 50%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
     }
 
-    .badge-base__link {
-      text-align: center;
-
-    }
 
   @media screen and (max-width: 768px) {
     header nav{
